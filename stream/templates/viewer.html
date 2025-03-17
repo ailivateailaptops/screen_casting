@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Viewer</title>
+</head>
+<body>
+    <h1>Live Screens</h1>
+    <ul>
+        {% for stream in streams %}
+            <li>Screen from {{ stream }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
